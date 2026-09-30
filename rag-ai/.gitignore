@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local secrets
+.env
+.env.*
+*.env
+.envrc
+.flaskenv
+!.env.example
+!.env.sample
+!.env.template
+*.local
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Node dependencies
+node_modules/

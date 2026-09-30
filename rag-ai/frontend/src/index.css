@@ -1,0 +1,43 @@
+:root {
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  color: #25392e;
+  background: #e9eee8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --ink: #20372a;
+  --muted: #77837a;
+  --surface: #fbfcf9;
+  --rail: #f2f4ee;
+  --line: #dce2da;
+  --forest: #28614c;
+  --coral: #c88160;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+button:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 2px solid #b86f50;
+  outline-offset: 3px;
+}
+
+#root {
+  min-height: 100svh;
+}
