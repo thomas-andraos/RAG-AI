@@ -6,6 +6,7 @@ SETUP
    cd .\rag-ai\backend\
    .\venv\Scripts\Activate.ps1
    python fill_db.py
+   .\venv\Scripts\python.exe -m uvicorn controller.chatcontroller:app --reload
    
 This will activate the python virtual environment and fill the DB with your vectorised and chunked data.
 
